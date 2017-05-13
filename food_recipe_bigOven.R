@@ -229,7 +229,7 @@ analyze_cluster <- function(df_rcp, cluster_num = 10){
     df_rcp <- df_rcp[,-1*delete_col] # delete constant column
   }
   # K means
-  cls <- kmeans((df_rcp[, 6:ncol(df_rcp)]), cluster_num)
+  cls <- kmeans((df_rcp[,6:ncol(df_rcp)]), cluster_num)
   clust <- cls$cluster 
   # visualize
   plotcluster(df_rcp[, 6:ncol(df_rcp)], clust)
