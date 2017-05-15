@@ -37,6 +37,12 @@ write.csv(df_l, 'recipe_bigOven.csv')
 # load data
 df_l <- read.csv('recipe_bigOven.csv')
 ```
+# Network
 ![Alt text](/network_1.png?raw=true "Title")
 ![Alt text](/network_2.png?raw=true "Title")
 ![Alt text](/network_3.png?raw=true "Title")
+# Random Forest
+Importance of variables
+![Alt text](/rf_1.png?raw=true "Title")
+Analyze variables
+![Alt text](/rf_2.png?raw=true "Title")
