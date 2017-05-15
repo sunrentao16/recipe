@@ -45,7 +45,6 @@ As we can see in above graph, there are too many vertices and links in the netwo
 ![Alt text](/network_2.png?raw=true "Title")
 Since some links are deleted, some vertices are isolated. In the connected graph, there are some large dots. They are some very commen ingredients. For example,
 
-|---------|-----------|
 |salt     | onion     |
 |---------|-----------|
 
