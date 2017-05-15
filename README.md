@@ -37,3 +37,4 @@ write.csv(df_l, 'recipe_bigOven.csv')
 # load data
 df_l <- read.csv('recipe_bigOven.csv')
 ```
+![Alt text](/netWork_1.pdf?raw=true "Title")
