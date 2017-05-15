@@ -44,9 +44,9 @@ Go through each recipe, connect all ingredients that appears in one recipe and i
 As we can see in above graph, there are too many vertices and links in the network. Let's reduce the complexity of network, so we can see some meaningful relations between ingredients. Therefore, I deleted all links with weight less than 5, so we get the graph below.
 ![Alt text](/network_2.png?raw=true "Title")
 Since some links are deleted, some vertices are isolated. In the connected graph, there are some large dots. They are some very commen ingredients. For example,
----------|-----------|
-salt     | onion     |
----------|-----------|
+|---------|-----------|
+|salt     | onion     |
+|---------|-----------|
 Let's also delete them, since they doesn't provide much infrmation. Then we get the graph below.
 ![Alt text](/network_3.png?raw=true "Title")
 # Random Forest
