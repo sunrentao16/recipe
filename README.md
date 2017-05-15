@@ -11,7 +11,7 @@
 <img src="bigOven_1.png" width="200">
 <img src="bigOven_2.png" width="200">
 <img src="bigOven_3.png" width="200">
-![](/bigOven_1.png)![](/bigOven_2.png)![](/bigOven_3.png)
+![[alt-text-1](/bigOven_1.png)![[alt-text-2](/bigOven_2.png)![[alt-text-3](/bigOven_3.png)
 ```{r, warning= F, message=FALSE}
 library(rvest) # Grab data from web
 library(lubridate) # time duration
