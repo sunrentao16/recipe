@@ -38,6 +38,7 @@ Go through each recipe, connect all ingredients that appears in one recipe and i
 |Image 1: Network of all ingredients|
 
 As we can see in above graph, there are too many vertices and links in the network. Let's reduce the complexity of network, so we can see some meaningful relations between ingredients. Therefore, I deleted all links with weight less than 5, so we get the graph below.
+
 |![Alt text](picture/network_2.png?raw=true "Network of all ingredients")|
 |:----------:|
 |Image 2: Network after deleting links with small weight|
@@ -48,9 +49,11 @@ Since some links are deleted, some vertices are isolated. In the connected graph
 |---------|-----------|
 
 Let's also delete them, since they doesn't provide much infrmation. Then we get the graph below.
+
 |![Alt text](picture/network_3.png?raw=true "Network of all ingredients")|
 |:----------:|
 |Image 3: Network after deleting commen ingredients and isolate vertices|
+
 # Random Forest
 Importance of variables
 ![Alt text](picture/rf_1.png?raw=true "Title")
