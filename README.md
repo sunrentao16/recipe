@@ -8,7 +8,7 @@
 
 
 # Grab recipe data & clean data
-<img src="bigOven_1.png" width="260"><img src="bigOven_2.png" width="260"><img src="bigOven_3.png" width="260">
+<img src="bigOven_1.png" width="300"><img src="bigOven_2.png" width="300"><img src="bigOven_3.png" width="300">
 
 ![[alt-text-1](/bigOven_1.png)![[alt-text-2](/bigOven_2.png)![[alt-text-3](/bigOven_3.png)
 ```{r, warning= F, message=FALSE}
