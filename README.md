@@ -32,8 +32,10 @@ Below is an example of the data after extraction and data cleaning.
 # Network
 Present the relations of ingredients in network graphs. Each ingredient is a vertice in the network.
 Go through each recipe, connect all ingredients that appears in one recipe and increase the weight of links between them by 1. The picture below shows the network of all ingredients.
+
 |![Alt text](picture/network_1.png?raw=true "Network of all ingredients")|
 |Network of all ingredients|
+
 As we can see in above graph, there are too many vertices and links in the network. Let's reduce the complexity of network, so we can see some meaningful relations between ingredients. Therefore, I deleted all links with weight less than 5, so we get the graph below.
 ![Alt text](picture/network_2.png?raw=true "Title")
 Since some links are deleted, some vertices are isolated. In the connected graph, there are some large dots. They are some very commen ingredients. For example,
