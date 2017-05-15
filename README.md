@@ -39,3 +39,4 @@ df_l <- read.csv('recipe_bigOven.csv')
 ```
 ![Alt text](/network_1.png?raw=true "Title")
 ![Alt text](/network_2.png?raw=true "Title")
+![Alt text](/network_3.png?raw=true "Title")
