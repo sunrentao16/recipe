@@ -22,21 +22,21 @@ source("convert_to_df.R") # convert recipe_list to a data frame
 # Network
 Present the relations of ingredients in network graphs. Each ingredient is a vertice in the network.
 Go through each recipe, connect all ingredients that appears in one recipe and increase the weight of links between them by 1. The picture below shows the network of all ingredients.
-![Alt text](/network_1.png?raw=true "Title")
+![Alt text](picture/network_1.png?raw=true "Title")
 As we can see in above graph, there are too many vertices and links in the network. Let's reduce the complexity of network, so we can see some meaningful relations between ingredients. Therefore, I deleted all links with weight less than 5, so we get the graph below.
-![Alt text](/network_2.png?raw=true "Title")
+![Alt text](picture/network_2.png?raw=true "Title")
 Since some links are deleted, some vertices are isolated. In the connected graph, there are some large dots. They are some very commen ingredients. For example,
 
 |salt     | onion     |
 |---------|-----------|
 
 Let's also delete them, since they doesn't provide much infrmation. Then we get the graph below.
-![Alt text](/network_3.png?raw=true "Title")
+![Alt text](picture/network_3.png?raw=true "Title")
 # Random Forest
 Importance of variables
-![Alt text](/rf_1.png?raw=true "Title")
+![Alt text](picture/rf_1.png?raw=true "Title")
 Analyze variables
-![Alt text](/rf_2.png?raw=true "Title")
+![Alt text](picture/rf_2.png?raw=true "Title")
 # Lasso
 
 # Recommendation 
