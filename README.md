@@ -1,4 +1,4 @@
-# Recipe
+# Recipe Analysis using Machine Learning Method
 1. [Collected recipe data from website bigOven.com.](README.md#Grab-recipe-data-&-clean-data)
 2. [Explore ingredients in recipes.](README.md#Network)
 3. [Analyze recipe rating.](README.md#Random-Forest)
