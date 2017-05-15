@@ -1,10 +1,12 @@
----
-title: "Recipe project Incubator"
-author: "Rentao Sun"
-date: "May 13, 2017"
-output: html_document
----
 
+
+  
+# Recipe
+1. [Collected recipe data from website bigOven.com.]
+2. [Applied network method to explore the relation of different ingredients in recipes.]
+3. [Applied random forest and generalized linear regression method to analyze the relation between rating of the recipe and ohter variables.]
+
+(README.md#challenge-summary)
 # Grab recipe data from web & clean data ###
 ```{r, warning= F, message=FALSE}
 library(rvest) # Grab data from web
