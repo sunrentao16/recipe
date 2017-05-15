@@ -8,7 +8,7 @@
 
 
 # Grab recipe data & clean data
-![Alt text](/bigOven_1.png?raw=true "Title")![Alt text](/bigOven_2.png?raw=true "Title")![Alt text](/bigOven_3.png?raw=true "Title")
+![Alt text](/bigOven_1.png=200X50?raw=true "Title")![Alt text](/bigOven_2.png?raw=true "Title")![Alt text](/bigOven_3.png?raw=true "Title")
 ```{r, warning= F, message=FALSE}
 library(rvest) # Grab data from web
 library(lubridate) # time duration
