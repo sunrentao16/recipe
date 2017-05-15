@@ -33,3 +33,6 @@ Importance of variables
 ![Alt text](/rf_1.png?raw=true "Title")
 Analyze variables
 ![Alt text](/rf_2.png?raw=true "Title")
+# Lasso
+
+# Recommendation 
