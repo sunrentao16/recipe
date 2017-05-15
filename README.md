@@ -16,9 +16,9 @@ source("get_recipe.R") # get recipe from one url
 source("get_all_recipes.R") # get recipe form a table of urls, return a list of recipe
 source("convert_to_df.R") # convert recipe_list to a data frame
 ```
-|name   | category  |duration_cook| calorie_per_serving |review| rating|photo| serving_num     |Ribs| Black pepper |salt  | Garlic  |
-|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|
-|Fall-off-the-bone Apple Cider Ribs | Ribs  |4| 1446 |20| 4.5|2| 4     |2     | 1 |1     | 2  |
+|name|category|duration_cook| calorie_per_serving |review| rating|photo| serving_num     |Ribs| Black pepper |salt  | Garlic |...... |
+|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|------|------|
+|Apple Cider Ribs | Ribs  |4| 1446 |20| 4.5|2| 4     |2     | 1 |1     | 2  | ......|
 # Network
 Present the relations of ingredients in network graphs. Each ingredient is a vertice in the network.
 Go through each recipe, connect all ingredients that appears in one recipe and increase the weight of links between them by 1. The picture below shows the network of all ingredients.
