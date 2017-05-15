@@ -1,9 +1,9 @@
-
+---
 title: "Recipe project Incubator"
 author: "Rentao Sun"
 date: "May 13, 2017"
 output: html_document
-
+---
 
 # Grab recipe data from web & clean data ###
 ```{r, warning= F, message=FALSE}
