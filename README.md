@@ -5,7 +5,7 @@
 
 
 # Grab recipe data & clean data
-<img src="bigOven_1.png" width="300"><img src="bigOven_2.png" width="290"><img src="bigOven_3.png" width="290">
+<img src="picture/bigOven_1.png" width="300"><img src="picture/bigOven_2.png" width="290"><img src="picture/bigOven_3.png" width="290">
 
 ```{r, warning= F, message=FALSE}
 library(rvest) # Grab data from web
