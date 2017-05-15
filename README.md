@@ -1,12 +1,11 @@
----
+
 title: "Recipe project Incubator"
 author: "Rentao Sun"
 date: "May 13, 2017"
 output: html_document
----
 
 
-# get recipe data from web & clean data ###
+# Grab recipe data from web & clean data ###
 ```{r, warning= F, message=FALSE}
 library(rvest) # Grab data from web
 library(lubridate) # time duration
