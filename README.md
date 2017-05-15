@@ -7,21 +7,20 @@
 # Grab recipe data & clean data
 Collected recipes data from bigOven.com. The recipe information includes the following.
 
-|name     |category|duration_cook| calorie|review| rating|photo| serving_num    |all ingredients & amount| 
+|name     |category|duration_cook| calorie|review| rating|photo numbers| serving_num    |all ingredients & amount| 
 |---------|-----------|---------|-----------|---------|-----------|---------|-----------|----|
 
 <img src="picture/bigOven_1.png" width="300"><img src="picture/bigOven_2.png" width="290"><img src="picture/bigOven_3.png" width="290">
-
+I wrote several R functions to visit each recipe webpage, download the text, extract the information that I need, clean the data and store them in a data frame for further exploration.
 ```{r, warning= F, message=FALSE}
 library(rvest) # Grab data from web
-library(lubridate) # time duration
 source("get_links.R") # get links function
 source("modify_url_table.R") # modify url_table, add '?page=6' to visit more webpages
 source("get_recipe.R") # get recipe from one url
 source("get_all_recipes.R") # get recipe form a table of urls, return a list of recipe
 source("convert_to_df.R") # convert recipe_list to a data frame
 ```
-|name|category|duration_cook| calorie_per_serving |review| rating|photo| serving_num     |Ribs| Black pepper |salt  | Garlic |...... |
+|name|category|duration_cook| calorie_per_serving |review| rating|photo numbers| serving_num     |Ribs| Black pepper |salt  | Garlic |...... |
 |---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|------|------|
 |Apple Cider Ribs | Ribs  |4| 1446 |20| 4.5|2| 4     |2     | 1 |1     | 2  | ......|
 # Network
