@@ -70,13 +70,8 @@ Let's also delete them, since they doesn't provide much infrmation. Then we get 
 
 The size of the vertices represents the degree. So a large vertice means that the ingredient appears very frequently in recipes. The thickness of the lines represents the weights. So a thick line means the 2 ingredients appears very frequently in one recipe. For example, we can see parsley(150) and basil(66) are popular ingredients and always appear in one recipe.
 
-# Random Forest
-Importance of variables
-![Alt text](picture/rf_1.png?raw=true "Title")
-Analyze variables
-![Alt text](picture/rf_2.png?raw=true "Title")
-# Lasso
 
+# Lasso
 |![Alt text](picture/lasso_1.png?raw=true "")|
 |:----------:|
 |Image 4: Lasso|
@@ -84,6 +79,13 @@ Analyze variables
 |![Alt text](picture/lasso_2.png?raw=true "Network of all ingredients")|
 |:----------:|
 |Image 5: Lasso|
+
+# Random Forest
+Importance of variables
+![Alt text](picture/rf_1.png?raw=true "Title")
+Analyze variables
+![Alt text](picture/rf_2.png?raw=true "Title")
+
 
 
 # To do in future
