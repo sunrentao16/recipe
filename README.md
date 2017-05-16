@@ -55,6 +55,8 @@ As we can see in above graph, there are too many vertices and links in the netwo
 
 Since some links are deleted, some vertices are isolated. In the connected graph, there are some large dots. They are some very commen ingredients. For example,
 
+### Commen ingredients; to be deleted
+
 |salt     | onion     |garlic   | pepper     |olive.oil     | black.pepper     |butter     | tomatoes     | ......|
 |---------|-----------|---------|-----------|---------|-----------|---------|-----------|-----|
 
@@ -63,6 +65,7 @@ Let's also delete them, since they doesn't provide much infrmation. Then we get 
 |![Alt text](picture/network_3.png?raw=true "Network of all ingredients")|
 |:----------:|
 |Image 3: Network after deleting commen ingredients and isolate vertices|
+
 
 | **ID**     | 150     |50   | 31     |55    | 48     |61     | 66     |
 |---------|-----------|---------|-------|---------|-----------|---------|-----------|
