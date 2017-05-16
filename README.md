@@ -30,7 +30,7 @@ Below is an example of the data after extraction and data cleaning.
 |---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|------|------|
 |Apple Cider Ribs | Ribs  |4| 1446 |20| 4.5|2| 4     |2     | 1 |1     | 2  | ......|
 
-Table: Table 1
+[Table 1]
 
 # Network
 Present the relations of ingredients in network graphs. Each ingredient is a vertice in the network.
