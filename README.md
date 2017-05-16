@@ -67,21 +67,18 @@ Let's also delete them, since they doesn't provide much infrmation. Then we get 
 |Image 3: Network after deleting commen ingredients and isolate vertices|
 
 
-| **ID**     | 150     |50   | 31     |55    | 48     |61     | 66     |
-|---------|-----------|---------|-------|---------|-----------|---------|-----------|
-|**INGREDIENT** | parsley |thyme   | sugar  |parmesan   | milk    |egg     | basil     |
+| **ID**     | 150     |50   | 31     |55    | 48     |61     | 66     | ......|
+|---------|-----------|---------|-------|---------|-----------|---------|-------|----|
+|**INGREDIENT** | parsley |thyme   | sugar  |parmesan   | milk    |egg     | basil  |......|
 
 The size of the vertices represents the degree. So a large vertice means that the ingredient appears very frequently in recipes. The thickness of the lines represents the weights. So a thick line means the 2 ingredients appears very frequently in one recipe. For example, we can see parsley(150) and basil(66) are popular ingredients and always appear in one recipe.
 
 
 # Lasso
-|![Alt text](picture/lasso_1.png?raw=true "")|
-|:----------:|
-|Image 4: Lasso|
 
 |![Alt text](picture/lasso_2.png?raw=true "Network of all ingredients")|
 |:----------:|
-|Image 5: Lasso|
+|Image 4: Lasso|
 
 # Random Forest
 Importance of variables
