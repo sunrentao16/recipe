@@ -76,7 +76,13 @@ The size of the vertices represents the degree. So a large vertice means that th
 
 # Lasso: analyze rating of recipes
 
-To figure out what makes a high rating for recipe, I used lasso regression to explain rating variable using all other variables. Used cross validations to figure out the best penlty coefficient lambda. I got non-zero coefficients on the following variables. I got mean squre error of predicting rating on testing data, ** 0.36111**. 
+To figure out what makes a high rating for recipe, I used lasso regression to explain rating variable using all other variables. Used cross validations to figure out the best penlty coefficient lambda. I got non-zero coefficients on the following variables. I got mean squre error of predicting rating on testing data,  ** 0.36111** . 
+
+### Variables with non-zero coefficients
+
+| category    | review     |rosemary   | olive oil     |milk    | spaghetti.sauce       | ......|
+|---------|-----------|---------|-------|---------|-----------|---------|
+| 0.0061786124  | 0.0049001031 |0.0108121892 | 0.0091707927  |-0.0094320080    | -0.0059373417        | ......|
 
 |![Alt text](picture/lasso_2.png?raw=true "Network of all ingredients")|
 |:----------:|
