@@ -88,4 +88,6 @@ Analyze variables
 
 # To do in future
 ### Create a new recipe using Network
-Start from one ingredient, then go to the next ingredient that has strongest connection with the original one; repeat the process until we get enough ingredients for one dish.  
+Start from one ingredient, then go to the next ingredient that has strongest connection with the original one; repeat the process until we get enough ingredients for one dish.  For example,
+
+| egg | -> | milk | -> |
