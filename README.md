@@ -29,6 +29,7 @@ Below is an example of the data after extraction and data cleaning.
 |name|category|duration_cook| calorie_per_serving |review| rating|photo numbers| serving_num     |Ribs| Black pepper |salt  | Garlic |...... |
 |---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|------|------|
 |Apple Cider Ribs | Ribs  |4| 1446 |20| 4.5|2| 4     |2     | 1 |1     | 2  | ......|
+
 Table: Table 1
 
 # Network
