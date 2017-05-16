@@ -5,7 +5,11 @@ get_all_recipes <- function(url_table){
   for( i in seq_along(url_table)){
     ind <- gregexpr('/main-dish/', url_table[i])[[1]][1]
     catg_tmp <- substr(url_table[i], ind+11, nchar(url_table[i]))
-    catg[i] <- substr(catg_tmp, 1, gregexpr('/', catg_tmp)[[1]][1]-1)
+    if(grepl('/', catg_tmp)){
+      catg[i] <- substr(catg_tmp, 1, gregexpr('/', catg_tmp)[[1]][1]-1)
+    }else{
+      catg[i] <- catg_tmp
+    }
   }
   url_catg <- data.frame( urls = url_table, category = catg)
   # get recipe in a list

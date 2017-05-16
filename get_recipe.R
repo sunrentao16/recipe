@@ -17,12 +17,24 @@ get_recipe <- function(urls_recipe, catg = NA){
     for(j in seq_along(ingredient)){
       ing_amount[ingredient[j]] <- amount[j]
     }
-    
     #review
     review <- html_content %>%
       html_nodes(".count") %>%
       html_text()
     if(length(review) == 0) review <- 0
+    # rating
+    rating <- html_content %>%
+      html_nodes(".recipe-detail-star-rating") %>%
+      html_text()
+    indx_rat <- gregexpr('reviews', rating)[[1]][1]
+    tmp_rat <- substr(rating, indx_rat+7, indx_rat + 10)
+    rating <- substr(tmp_rat, 1, gregexpr('\r', tmp_rat)[[1]][1]-1) %>% as.numeric()
+    # number of photos
+    photo <- html_content %>%
+      html_nodes("a") %>%
+      html_text()
+    photo <- photo[grepl('Photos', photo)]
+    photo <- substr(photo, gregexpr('\\(', photo)[[1]][1]+1, gregexpr('\\)', photo)[[1]][1]-1) %>% as.numeric()
     # find calorie
     calorie <- html_content %>%
       html_nodes("p") %>%
@@ -62,9 +74,12 @@ get_recipe <- function(urls_recipe, catg = NA){
     info <- list()
     info['name'] <- substr(sub_str, 1, ind_e-1)
     info['catg'] <- catg
-    info['duration_cook'] <- sprintf('%02d:%02d', hour(as.period(duration_cook)), minute(as.period(duration_cook)))
+    #info['duration_cook'] <- sprintf('%02d:%02d', hour(as.period(duration_cook)), minute(as.period(duration_cook)))
+    info['duration_cook'] <- as.numeric(duration_cook)/3600
     info['calorie_per_serving'] <- calorie / serving_num
     info['review'] <- review
+    info['rating'] <- rating
+    info['photo'] <- photo
     info['serving_num'] <- serving_num
     recipe[[i]] <- c(info, ing_amount)
   }
