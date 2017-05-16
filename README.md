@@ -12,6 +12,7 @@ Collected recipes data from bigOven.com. The recipe information includes the fol
 
 Below are some screenshots of the recipe webpage.
 
+### Screen shots of recipe web page
 <img src="picture/bigOven_1.png" width="300"><img src="picture/bigOven_2.png" width="290"><img src="picture/bigOven_3.png" width="290">
 
 I wrote several R functions to visit each recipe webpage, download the text, extract the information that I need, clean the data and store them in a data frame for further exploration.
