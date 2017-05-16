@@ -74,7 +74,9 @@ Let's also delete them, since they doesn't provide much infrmation. Then we get 
 The size of the vertices represents the degree. So a large vertice means that the ingredient appears very frequently in recipes. The thickness of the lines represents the weights. So a thick line means the 2 ingredients appears very frequently in one recipe. For example, we can see parsley(150) and basil(66) are popular ingredients and always appear in one recipe.
 
 
-# Lasso
+# Lasso: analyze rating of recipes
+
+To figure out what makes a high rating for recipe, I used lasso regression to explain rating variable using all other variables. Used cross validations to figure out the best penlty coefficient lambda. I got non-zero coefficients on the following variables. I got mean squre error of predicting rating on testing data, ** 0.36111**. 
 
 |![Alt text](picture/lasso_2.png?raw=true "Network of all ingredients")|
 |:----------:|
