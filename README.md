@@ -91,3 +91,4 @@ Analyze variables
 Start from one ingredient, then go to the next ingredient that has strongest connection with the original one; repeat the process until we get enough ingredients for one dish.  For example,
 
 | egg | -> | milk | -> |
+|-----|-----|-----|----|
