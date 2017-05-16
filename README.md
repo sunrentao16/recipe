@@ -90,10 +90,10 @@ To figure out what makes a high rating for recipe, I used lasso regression to ex
 
 # Random Forest: analyze rating of recipes
 Used Random Forest to predict rating.  Mean Squre Error of predicting rating on testing data,  **0.30715**, which is **15%** better than Lasso method.
-![Alt text](picture/rf_1.png?raw=true "Title")
 
-
-
+|![Alt text](picture/rf_1.png?raw=true "Title")|
+|:----------------------------------------:|
+| Image 5  |
 
 # To do in future
 ### Create a new recipe using Network
