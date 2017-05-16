@@ -2,7 +2,7 @@
 1. [Collected recipe data from website bigOven.com.](README.md#Grab-recipe-data-&-clean-data)
 2. [Explore ingredients in recipes.](README.md#Network)
 3. [Analyze recipe rating.](README.md#Random-Forest)
-
+4. [To do in future](README.md#to-do-in-future)
 
 # Grab recipe data & clean data
 Collected recipes data from bigOven.com. The recipe information includes the following.
@@ -67,4 +67,13 @@ Analyze variables
 ![Alt text](picture/rf_2.png?raw=true "Title")
 # Lasso
 
-# Recommendation 
+|![Alt text](picture/lasso_1.png?raw=true "")|
+|:----------:|
+|Image 4: Lasso|
+
+|![Alt text](picture/lasso_2.png?raw=true "Network of all ingredients")|
+|:----------:|
+|Image 5: Lasso|
+
+
+# To do in future
