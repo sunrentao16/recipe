@@ -95,6 +95,8 @@ Used Random Forest to predict rating.  Mean Squre Error of predicting rating on 
 |:----------------------------------------:|
 | Image 5  |
 
+Random forest works better in predicting rating than Lasso regression. I believe that is because that the relation between rating and other variables are not linear.
+
 # To do in future
 ### Create a new recipe using Network
 Start from one ingredient, then go to the next ingredient that has strongest connection with the original one; repeat the process until we get enough ingredients for one dish.  For example,
