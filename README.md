@@ -93,6 +93,6 @@ Start from one ingredient, then go to the next ingredient that has strongest con
 | egg | -> | milk | -> | parmesan | ->| basil| ->| parsley| ->| mushrooms|->| white wine|
 |-----|-----|-----|----|----------|---|-----|----|---------|--|----------|---|--------|
 
-My feakfast tomorrow!
+My breakfast tomorrow!
 ### Recommendation of recipe to customers
 Collect customers favourite recipe, compare it with all recipes in the database and find closet one as the recommendation.
