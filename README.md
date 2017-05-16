@@ -35,7 +35,7 @@ Below is an example of the data after extraction and data cleaning.
 
 ### Data frame dimension
 
-|Recipes Number | Ingredients Number|
+|Number of Recipes  | Number of Ingredients |
 |--------------|--------------------|
 |6720  | 593|
 
