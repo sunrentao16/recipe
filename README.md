@@ -64,9 +64,9 @@ Let's also delete them, since they doesn't provide much infrmation. Then we get 
 |:----------:|
 |Image 3: Network after deleting commen ingredients and isolate vertices|
 
-| **id**     | 150     |50   | 31     |55    | 48     |61     | 66     |
+| **ID**     | 150     |50   | 31     |55    | 48     |61     | 66     |
 |---------|-----------|---------|-------|---------|-----------|---------|-----------|
-|**ingredient** | parsley |thyme   | sugar  |parmesan   | milk    |egg     | basil     |
+|**INGREDIENT** | parsley |thyme   | sugar  |parmesan   | milk    |egg     | basil     |
 
 
 
