@@ -54,6 +54,7 @@ Let's also delete them, since they doesn't provide much infrmation. Then we get 
 |:----------:|
 |Image 3: Network after deleting commen ingredients and isolate vertices|
 
+
 # Random Forest
 Importance of variables
 ![Alt text](picture/rf_1.png?raw=true "Title")
