@@ -29,6 +29,8 @@ Below is an example of the data after extraction and data cleaning.
 |name|category|duration_cook| calorie_per_serving |review| rating|photo numbers| serving_num     |Ribs| Black pepper |salt  | Garlic |...... |
 |---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|------|------|
 |Apple Cider Ribs | Ribs  |4| 1446 |20| 4.5|2| 4     |2     | 1 |1     | 2  | ......|
+Table: Table 1
+
 # Network
 Present the relations of ingredients in network graphs. Each ingredient is a vertice in the network.
 Go through each recipe, connect all ingredients that appears in one recipe and increase the weight of links between them by 1. The picture below shows the network of all ingredients.
